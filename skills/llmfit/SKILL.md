@@ -1,6 +1,6 @@
 ---
 name: llmfit
-description: Detect your hardware specs and find the best-fitting LLM models for local inference. Use when: (1) 用户想知道哪些 LLM 模型可以在他们的硬件上运行 (2) 用户询问本地模型性能、内存需求或硬件兼容性 (3) 用户想要针对本地部署的编码/推理/聊天模型推荐 (4) 用户需要为特定模型需求规划硬件升级 (5) 用户想比较模型在质量、速度、适配度和上下文维度的表现
+description: Detect your hardware specs and find the best-fitting LLM models for local inference. Use when 用户想知道哪些 LLM 模型可以在他们的硬件上运行 or 用户询问本地模型性能、内存需求或硬件兼容性 or 用户想要针对本地部署的编码/推理/聊天模型推荐 or 用户需要为特定模型需求规划硬件升级 or 用户想比较模型在质量、速度、适配度和上下文维度的表现
 ---
 
 ## Instructions
