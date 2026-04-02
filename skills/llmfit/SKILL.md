@@ -1,18 +1,11 @@
-# llmfit
-
-Detect your hardware specs and find the best-fitting LLM models for local inference.
-
-## When to Use
-
-- User wants to know which LLM models can run on their hardware
-- User asks about local model performance, memory requirements, or hardware compatibility
-- User wants recommendations for coding/reasoning/chat models for local deployment
-- User needs to plan hardware upgrades for specific model requirements
-- User wants to compare models across quality, speed, fit, and context dimensions
+---
+name: llmfit
+description: Detect your hardware specs and find the best-fitting LLM models for local inference. Use when: (1) 用户想知道哪些 LLM 模型可以在他们的硬件上运行 (2) 用户询问本地模型性能、内存需求或硬件兼容性 (3) 用户想要针对本地部署的编码/推理/聊天模型推荐 (4) 用户需要为特定模型需求规划硬件升级 (5) 用户想比较模型在质量、速度、适配度和上下文维度的表现
+---
 
 ## Instructions
 
-1. Run `llmfit system` to detect hardware specs first
+1. Run `llmfit system` to detect hardware specs first, install `llmfit` if not available using [llmfit@github](https://github.com/AlexsJones/llmfit#install)
 2. Use the appropriate subcommand based on user intent:
 
 | User Intent | Command |
@@ -27,7 +20,7 @@ Detect your hardware specs and find the best-fitting LLM models for local infere
 | Full table output | `llmfit --cli` |
 
 3. For scripting/automation, always add `--json` flag for machine-readable output
-4. Use `--memory=<SIZE>` to override GPU VRAM when autodetection fails (e.g., `--memory=32G`)
+4. Use `--memory=<SIZE>` to override GPU VRAM when auto detection fails (e.g., `--memory=32G`)
 5. Use `--max-context <tokens>` to cap context length for memory estimation
 6. Use `--force-runtime mlx|llamacpp|vllm` to override automatic runtime selection
 

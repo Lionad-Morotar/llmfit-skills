@@ -5,7 +5,7 @@ Claude Code skill for [llmfit](https://github.com/AlexsJones/llmfit) — detect 
 ## Installation
 
 ```bash
-npx skills add Lionad-Morotar/llmfit-skills
+npx skills add https://github.com/Lionad-Morotar/llmfit-skills
 ```
 
 ## Usage
